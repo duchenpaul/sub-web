@@ -32,8 +32,6 @@ docker run -d -p 58080:80 --restart always --name subweb careywong/subweb:latest
 ```shell
 docker build -t subweb-local:latest .
 
-docker run -d -p 58080:80 --restart always --name subweb subweb-local:latest
-
 cd sub-web-services && docker-compose up --build -d
 ```
 
